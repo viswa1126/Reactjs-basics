@@ -2,10 +2,11 @@ import React from 'react';
 
 //ES6 new way of declaring components
 
-const Joe = () =>{
+const Joe = (props) =>{
     return(
     <div>
-            <p>Joe is the first girl went to black hole many times many years..&#128540;</p>
+            <p>Many people went to see the black hole in many years..&#128540;</p>
+            <p>person {props.name} At age: {props.age}</p>
             <p> Year {Math.floor(Math.random()*2000)}</p>
 
     </div> 
