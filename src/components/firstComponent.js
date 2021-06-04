@@ -8,6 +8,7 @@ const Joe = (props) =>{
             <p>Many people went to see the black hole in many years..&#128540;</p>
             <p>person {props.name} At age: {props.age}</p>
             <p> Year {Math.floor(Math.random()*2000)}</p>
+            <p>{props.children}</p>
 
     </div> 
     )

@@ -10,6 +10,7 @@ function App() {
      <Joe name="Joe" age="65"/>
     <Joe name="monaro" age="55"/>
     <Joe name="rax-roman" age="45"/>
+    <Joe>Test Fetching data between tags</Joe>
     </div>
     </div>
   );
